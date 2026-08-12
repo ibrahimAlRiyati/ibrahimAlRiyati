@@ -1,4 +1,21 @@
-# 👋 Hi, I'm Ibrahim AL Riyati
+<picture>
+
+  <!-- GitHub Dark Mode -->
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/dark_mode.svg">
+
+  <!-- GitHub Light Mode -->
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light.svg">
+
+  <!-- Fallback -->
+  <img
+    src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light.svg"
+    alt="Ibrahim Al Riyati Profile">
+</picture>
+
 
 <h3 align="center">
   Software Engineer · Game Developer
