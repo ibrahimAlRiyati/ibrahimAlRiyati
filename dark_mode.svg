@@ -4,10 +4,7 @@
 
 </style>
 <rect width="525px" height="525px" fill="#161b22" rx="15"/>
-<text x="15" y="25" fill="#c9d1d9"
-      font-family="Consolas, 'Courier New', monospace"
-      font-size="11px"
-      xml:space="preserve">
+<text x="15" y="25" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="11px" xml:space="preserve">
 
 <tspan x="15" y="25">                                %@@@@%                                           </tspan>
 <tspan x="15" y="35">                           #%@@#%@@@@%%%#*####                                   </tspan>

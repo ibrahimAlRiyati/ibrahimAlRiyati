@@ -68,14 +68,14 @@
 
 <!-- قسم الإحصائيات الحية المخفي إعداداته للسكريبت -->
 <g transform="translate(540, 140)">
-    <text y="0" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">0</tspan></text>
-    <text y="35" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............ </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
-    <text y="70" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">0</tspan></text>
-    <text y="105" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"> ............ </tspan><tspan id="contrib_data" class="stat-value">0</tspan></text>
-    <text y="140" class="stat-label">Followers<tspan id="follower_data_dots" class="stat-dots"> ................. </tspan><tspan id="follower_data" class="stat-value">0</tspan></text>
-    <text y="175" class="stat-label">Lines of Code<tspan id="loc_data_dots" class="stat-dots"> ............. </tspan><tspan id="loc_data" class="stat-value">0</tspan></text>
-    <text y="210" class="stat-label">  Lines Added<tspan id="loc_add_dots" class="stat-dots"> ............. </tspan><tspan id="loc_add" class="stat-value add-color">0</tspan></text>
-    <text y="245" class="stat-label">  Lines Deleted<tspan id="loc_del_dots" class="stat-dots"> ........... </tspan><tspan id="loc_del" class="stat-value del-color">0</tspan></text>
+    <text y="0" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">44</tspan></text>
+    <text y="35" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............. </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
+    <text y="70" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .... </tspan><tspan id="repo_data" class="stat-value">15</tspan></text>
+    <text y="105" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"></tspan><tspan id="contrib_data" class="stat-value">15</tspan></text>
+    <text y="140" class="stat-label">Followers<tspan id="follower_data_dots" class="stat-dots"> ......... </tspan><tspan id="follower_data" class="stat-value">1</tspan></text>
+    <text y="175" class="stat-label">Lines of Code<tspan id="loc_data_dots" class="stat-dots"> .... </tspan><tspan id="loc_data" class="stat-value">1,063</tspan></text>
+    <text y="210" class="stat-label">  Lines Added<tspan id="loc_add_dots" class="stat-dots"></tspan><tspan id="loc_add" class="stat-value add-color">1,261</tspan></text>
+    <text y="245" class="stat-label">  Lines Deleted<tspan id="loc_del_dots" class="stat-dots"> .... </tspan><tspan id="loc_del" class="stat-value del-color">198</tspan></text>
 </g>
 
 </svg>
