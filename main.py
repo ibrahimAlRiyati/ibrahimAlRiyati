@@ -33,15 +33,29 @@ def graph_commits(start_date, end_date):
     query($start_date: DateTime!, $end_date: DateTime!, $user_name: String!) {
         user(login: $user_name) {
             contributionsCollection(from: $start_date, to: $end_date) {
-                restrictedContributionsCount
                 totalCommitContributions
             }
         }
     }
     """
-    variables = {'start_date': start_date, 'end_date': end_date, 'user_name': USER_NAME}
-    request = simple_request('graph_commits', query, variables)
-    return request.json()['data']['user']['contributionsCollection']['totalCommitContributions']
+    total = 0
+    current_start = start_date
+    
+    # GraphQL 
+    while current_start < end_date:
+        current_end = min(current_start + relativedelta(years=1), end_date)
+        variables = {
+            'start_date': current_start.strftime('%Y-%m-%dT%H:%M:%SZ'),
+            'end_date': current_end.strftime('%Y-%m-%dT%H:%M:%SZ'),
+            'user_name': USER_NAME
+        }
+        request = simple_request('graph_commits', query, variables)
+        res = request.json()
+        if 'data' in res and res['data']['user']:
+            total += res['data']['user']['contributionsCollection']['totalCommitContributions']
+        current_start = current_end
+        
+    return total
 
 def user_getter():
     query = """
@@ -117,7 +131,7 @@ if __name__ == '__main__':
     created_at = datetime.strptime(user_data['createdAt'], '%Y-%m-%dT%H:%M:%SZ')
     
     age_str = daily_readme(BIRTHDAY)
-    total_commits = graph_commits(created_at.strftime('%Y-%m-%dT%H:%M:%SZ'), datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'))
+    total_commits = graph_commits(created_at, datetime.utcnow())
     
     repo_count, star_count = graph_repos_stars()
     contrib_count = user_data['repositoriesContributedTo']['totalCount']
