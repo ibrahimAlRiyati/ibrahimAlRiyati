@@ -1,5 +1,4 @@
 <picture>
-
   <!-- GitHub Dark Mode -->
   <source
     media="(prefers-color-scheme: dark)"
@@ -8,11 +7,11 @@
   <!-- GitHub Light Mode -->
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light.svg">
+    srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg">
 
   <!-- Fallback -->
   <img
-    src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light.svg"
+    src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg"
     alt="Ibrahim Al Riyati Profile">
 </picture>
 
