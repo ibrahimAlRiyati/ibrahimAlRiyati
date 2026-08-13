@@ -1,26 +1,13 @@
-<p align="center">
-  <a href="https://github.com/ibrahimAlRiyati">
-    <img src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/dark_mode.svg#gh-dark-mode-only" alt="Ibrahim Al Riyati Stats" width="100%">
-    <img src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg#gh-light-mode-only" alt="Ibrahim Al Riyati Stats" width="100%">
-  </a>
-</p>
-
-<h3 align="center">
-  Software Engineer · Game Developer
-</h3>
-
-<p align="center">
-  <b>“Passionate about everything that runs on 0s and 1s.”</b>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ibrahimAlRiyati">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/ibrahim-al-riyati">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-</p>
+<picture>
+  <!-- يظهر للزائر الذي يستخدم Dark Mode -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/dark_mode.svg">
+  
+  <!-- يظهر للزائر الذي يستخدم Light Mode -->
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg">
+  
+  <!-- الخيار الافتراضي -->
+  <img alt="Ibrahim Al Riyati Stats" src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/dark_mode.svg" width="100%">
+</picture>
 
 ## 🧑‍💻 About Me
 
