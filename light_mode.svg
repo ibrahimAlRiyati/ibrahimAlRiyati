@@ -11,7 +11,7 @@
 
 <rect width="950px" height="540px" fill="#ffffff" rx="12" stroke="#d0d7de" stroke-width="1"/>
 
-<!-- الرسمة الفنية ASCII Art -->
+
 <text x="10" y="20" class="ascii" xml:space="preserve">
 <tspan x="10" y="20">                                %@@@@%                                            </tspan>
 <tspan x="10" y="30">                           #%@@#%@@@@%%%#*####                                    </tspan>
@@ -66,9 +66,8 @@
 <tspan x="10" y="520">......:::::.:::*%*======---========--------------=--=%+:..:                       </tspan>
 </text>
 
-<!-- قسم الإحصائيات مع إضافة العمر Age -->
 <g transform="translate(530, 110)">
-    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> ......................... </tspan><tspan id="age_data" class="stat-value">24 years, 11 months, 29 days</tspan></text>
+    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> .................. </tspan><tspan id="age_data" class="stat-value">24 years, 11 months, 29 days</tspan></text>
     <text y="35" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">56</tspan></text>
     <text y="70" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............ </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
     <text y="105" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">16</tspan></text>
