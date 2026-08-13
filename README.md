@@ -1,17 +1,9 @@
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/dark_mode.svg">
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg">
-
-  <img
-    src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg"
-    alt="Ibrahim Al Riyati Profile">
-</picture>
-
+<p align="center">
+  <a href="https://github.com/ibrahimAlRiyati">
+    <img src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/dark_mode.svg#gh-dark-mode-only" alt="Ibrahim Al Riyati Stats" width="100%">
+    <img src="https://raw.githubusercontent.com/ibrahimAlRiyati/ibrahimAlRiyati/main/light_mode.svg#gh-light-mode-only" alt="Ibrahim Al Riyati Stats" width="100%">
+  </a>
+</p>
 
 <h3 align="center">
   Software Engineer · Game Developer
