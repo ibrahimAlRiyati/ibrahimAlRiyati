@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace" width="950px" height="540px" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Consolas', 'Courier New', 'Fira Code', monospace" width="950px" height="540px" font-size="14px">
 <style>
-    .ascii { fill: #020202; font-size: 11px; }
-    .stat-label { fill: #24292e; font-weight: bold; }
-    .stat-dots { fill: #6a737d; }
-    .stat-value { fill: #0366d6; font-weight: bold; }
-    .add-color { fill: #28a745; }
-    .del-color { fill: #cb2431; }
+    .ascii { fill: #24292f; font-size: 11px; }
+    .stat-label { fill: #d97706; font-size: 14px; font-weight: bold; }
+    .stat-dots { fill: #8c959f; font-size: 14px; }
+    .stat-value { fill: #0969da; font-size: 14px; font-weight: bold; }
+    .add-color { fill: #1a7f37; font-weight: bold; }
+    .del-color { fill: #cf222e; font-weight: bold; }
 </style>
 
-<rect width="950px" height="540px" fill="#ffffff" rx="12" stroke="#e1e4e8" stroke-width="1"/>
+<rect width="950px" height="540px" fill="#ffffff" rx="12" stroke="#d0d7de" stroke-width="1"/>
 
-<!-- قسم الرسمة الفنية ASCII Art -->
+<!-- الرسمة الفنية ASCII Art -->
 <text x="10" y="20" class="ascii" xml:space="preserve">
 <tspan x="10" y="20">                                %@@@@%                                            </tspan>
 <tspan x="10" y="30">                           #%@@#%@@@@%%%#*####                                    </tspan>
@@ -66,16 +66,17 @@
 <tspan x="10" y="520">......:::::.:::*%*======---========--------------=--=%+:..:                       </tspan>
 </text>
 
-<!-- قسم الإحصائيات الحية المخفي إعداداته للسكريبت -->
-<g transform="translate(540, 140)">
-    <text y="0" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">44</tspan></text>
-    <text y="35" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............. </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
-    <text y="70" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .... </tspan><tspan id="repo_data" class="stat-value">15</tspan></text>
-    <text y="105" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"></tspan><tspan id="contrib_data" class="stat-value">15</tspan></text>
-    <text y="140" class="stat-label">Followers<tspan id="follower_data_dots" class="stat-dots"> ......... </tspan><tspan id="follower_data" class="stat-value">1</tspan></text>
-    <text y="175" class="stat-label">Lines of Code<tspan id="loc_data_dots" class="stat-dots"> .... </tspan><tspan id="loc_data" class="stat-value">1,063</tspan></text>
-    <text y="210" class="stat-label">  Lines Added<tspan id="loc_add_dots" class="stat-dots"></tspan><tspan id="loc_add" class="stat-value add-color">1,261</tspan></text>
-    <text y="245" class="stat-label">  Lines Deleted<tspan id="loc_del_dots" class="stat-dots"> .... </tspan><tspan id="loc_del" class="stat-value del-color">198</tspan></text>
+<!-- قسم الإحصائيات مع إضافة العمر Age -->
+<g transform="translate(530, 110)">
+    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> ......................... </tspan><tspan id="age_data" class="stat-value">0</tspan></text>
+    <text y="35" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">0</tspan></text>
+    <text y="70" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............ </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
+    <text y="105" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">0</tspan></text>
+    <text y="140" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"> ............ </tspan><tspan id="contrib_data" class="stat-value">0</tspan></text>
+    <text y="175" class="stat-label">Followers<tspan id="follower_data_dots" class="stat-dots"> ................. </tspan><tspan id="follower_data" class="stat-value">0</tspan></text>
+    <text y="210" class="stat-label">Lines of Code<tspan id="loc_data_dots" class="stat-dots"> ............. </tspan><tspan id="loc_data" class="stat-value">0</tspan></text>
+    <text y="245" class="stat-label">  Lines Added<tspan id="loc_add_dots" class="stat-dots"> ............. </tspan><tspan id="loc_add" class="stat-value add-color">0</tspan></text>
+    <text y="280" class="stat-label">  Lines Deleted<tspan id="loc_del_dots" class="stat-dots"> ........... </tspan><tspan id="loc_del" class="stat-value del-color">0</tspan></text>
 </g>
 
 </svg>
