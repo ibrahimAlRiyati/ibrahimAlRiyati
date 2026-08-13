@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace" width="950px" height="540px" font-size="14px">
+<style>
+    .ascii { fill: #020202; font-size: 11px; }
+    .stat-label { fill: #24292e; font-weight: bold; }
+    .stat-dots { fill: #6a737d; }
+    .stat-value { fill: #0366d6; font-weight: bold; }
+    .add-color { fill: #28a745; }
+    .del-color { fill: #cb2431; }
+</style>
+
+<rect width="950px" height="540px" fill="#ffffff" rx="12" stroke="#e1e4e8" stroke-width="1"/>
+
+<!-- قسم الرسمة الفنية ASCII Art -->
+<text x="10" y="20" class="ascii" xml:space="preserve">
+<tspan x="10" y="20">                                %@@@@%                                            </tspan>
+<tspan x="10" y="30">                           #%@@#%@@@@%%%#*####                                    </tspan>
+<tspan x="10" y="40">                       %%%@##%@@@@@%%@%%%%@%%#+%*                                 </tspan>
+<tspan x="10" y="50">                    %%%%@@@@@@@@@@@@@@@@@@@@@@#***#**                             </tspan>
+<tspan x="10" y="60">                   @@@@#@@@@@@@@@@@@@@@@@@@@@@@%**######+                         </tspan>
+<tspan x="10" y="70">                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*#@%+%##*+                      </tspan>
+<tspan x="10" y="80">                @@@@@@@@@@@@@@@@%%%%@%@@@@@@@@@@@@@*#%*@*%%#=                     </tspan>
+<tspan x="10" y="90">               @@@@@@@@@@%%###**+=++****%%#*##%%%%###**%#@#%*+                    </tspan>
+<tspan x="10" y="100">               @@@@%###**+======-----=======++++=+++++++**##*#+                   </tspan>
+<tspan x="10" y="110">              @@@@#+====---------------::--------------=+*%%**++                  </tspan>
+<tspan x="10" y="120">             @@@@%+==--------:::----:::::::::::::::::::::-*##**+=                 </tspan>
+<tspan x="10" y="130">             @@@%#+==-------::::::::::::::::::::::::::..:-=###*#=                 </tspan>
+<tspan x="10" y="140">            @@@%%*+==------::::::::::::::::::::::::::::..:=++##*+-                </tspan>
+<tspan x="10" y="150">            @@%%#*+==------::::::::::::::::::::::::::::..:==+**#+=                </tspan>
+<tspan x="10" y="160">            @%%#*#+===-----:::::::::::::::::::::::::::::::==++***=                </tspan>
+<tspan x="10" y="170">            %##***+==-------:::::::::::::::::::::::::::::-=====++-                </tspan>
+<tspan x="10" y="180">            #*****===------::::::::::::::::::::::::::::::------==-                </tspan>
+<tspan x="10" y="190">            +++++====-------::::::::::::::::::::::::::::::-------                 </tspan>
+<tspan x="10" y="200">            ++=====****#%%%%%#+=-:::::::::::--=---::::...::-::::-                 </tspan>
+<tspan x="10" y="210">            ++====%*%@@%%%@@@@@@%+=-::--=*##%#%%%##*=::....::::.-                 </tspan>
+<tspan x="10" y="220">            ++*==#*%%###%###%%@%#%***===#@%@@@%%%%###*=+...::::.-                 </tspan>
+<tspan x="10" y="230">            @@+==####@@@@@@@@@@%#%*+--=##%@@%@@@@@**++*=+:...:::-                 </tspan>
+<tspan x="10" y="240">         ===++===*####%##%###%%%%%+=---%%%@@%#@@@%%%#*++=:-::::-                  </tspan>
+<tspan x="10" y="250">        +*+==+====#***#########%%*=--:-#*#%%%%%##******++:..:*+-                  </tspan>
+<tspan x="10" y="260">        =*++=+=====#********###%#+=--:--%**#######**+++*-:...-:--::               </tspan>
+<tspan x="10" y="270">        =++=*+=====-+#*******##*===-:::--#*++*******++*=::..:--=+*+-              </tspan>
+<tspan x="10" y="280">         ===+======-------========--::::--=***********--:..::===+++-              </tspan>
+<tspan x="10" y="290">         =========----::::::--=----:::::::--------------:.:::++-=+=-              </tspan>
+<tspan x="10" y="300">         ===+=+===---:::::::-===+=-:::::=-:---:::::::::::::::-+--=--              </tspan>
+<tspan x="10" y="310">          =-=++====----:::-----++*+====--==-:--:::::::-::::::-==---               </tspan>
+<tspan x="10" y="320">          ---=++===----::-----=#*%%*+*##++-------:::-:----::==:-=:                </tspan>
+<tspan x="10" y="330">           -==**+===------==+**%%%##*%@%#*#=-------:------:---:-:-                </tspan>
+<tspan x="10" y="340">              +*+===--=--=*%#++++===---==+%++*=--:-::---------::-                 </tspan>
+<tspan x="10" y="350">               #*++==-==*#*#***+--::=-:==**==***=---:-----:=----                  </tspan>
+<tspan x="10" y="360">               **+++=--=+=++*%**-=..::.::--#@%*+*----==-==--                      </tspan>
+<tspan x="10" y="370">                %#**+=-==--=======--=========---=---===+--                        </tspan>
+<tspan x="10" y="380">                ###+++====-----=====--------------=======-                        </tspan>
+<tspan x="10" y="390">                 %%#*++=-===----*####**+=-::------=++==+=                         </tspan>
+<tspan x="10" y="400">                 +#%*+===-=-------=%%*+=--:-------=+*+*=                          </tspan>
+<tspan x="10" y="410">                 +=+%#*+*==-------::--::::::-:---==+++--                          </tspan>
+<tspan x="10" y="420">                  ==+####*+++=--------::::=----==++*+-:-                          </tspan>
+<tspan x="10" y="430">                  ===++*#@####*++=-----=+++*+****#+--:-                           </tspan>
+<tspan x="10" y="440">                  ====+++*@@@@@#**++++*#%#%%%%*++----:=                           </tspan>
+<tspan x="10" y="450">                 -+====++++*#%%@@@%%%%%%#%@%%*=------:=                           </tspan>
+<tspan x="10" y="460">             ::-=======+++++++*****####**+===-===----                             </tspan>
+<tspan x="10" y="470">            .--=++======+++++++++++++++++======-=---:.:                           </tspan>
+<tspan x="10" y="480">           .:==*@+========+++++==============---=--:--=:                          </tspan>
+<tspan x="10" y="490">          ..::=@%+==========+===============-==-=---::=-.                         </tspan>
+<tspan x="10" y="500">      ..:.:::#@*========================----------=*-=:.-                          </tspan>
+<tspan x="10" y="510">.......:.:::#%*======-=============----------===-=%+-:.-                          </tspan>
+<tspan x="10" y="520">......:::::.:::*%*======---========--------------=--=%+:..:                       </tspan>
+</text>
+
+<!-- قسم الإحصائيات الحية المخفي إعداداته للسكريبت -->
+<g transform="translate(540, 140)">
+    <text y="0" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">0</tspan></text>
+    <text y="35" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............ </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
+    <text y="70" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">0</tspan></text>
+    <text y="105" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"> ............ </tspan><tspan id="contrib_data" class="stat-value">0</tspan></text>
+    <text y="140" class="stat-label">Followers<tspan id="follower_data_dots" class="stat-dots"> ................. </tspan><tspan id="follower_data" class="stat-value">0</tspan></text>
+    <text y="175" class="stat-label">Lines of Code<tspan id="loc_data_dots" class="stat-dots"> ............. </tspan><tspan id="loc_data" class="stat-value">0</tspan></text>
+    <text y="210" class="stat-label">  Lines Added<tspan id="loc_add_dots" class="stat-dots"> ............. </tspan><tspan id="loc_add" class="stat-value add-color">0</tspan></text>
+    <text y="245" class="stat-label">  Lines Deleted<tspan id="loc_del_dots" class="stat-dots"> ........... </tspan><tspan id="loc_del" class="stat-value del-color">0</tspan></text>
+</g>
+
+</svg>
