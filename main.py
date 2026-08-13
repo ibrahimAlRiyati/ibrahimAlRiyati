@@ -40,8 +40,6 @@ def graph_commits(start_date, end_date):
     """
     total = 0
     current_start = start_date
-    
-    # GraphQL 
     while current_start < end_date:
         current_end = min(current_start + relativedelta(years=1), end_date)
         variables = {
@@ -54,7 +52,6 @@ def graph_commits(start_date, end_date):
         if 'data' in res and res['data']['user']:
             total += res['data']['user']['contributionsCollection']['totalCommitContributions']
         current_start = current_end
-        
     return total
 
 def user_getter():
@@ -105,6 +102,25 @@ def graph_repos_stars():
     stars = sum(node['stargazerCount'] for node in data['nodes'])
     return data['totalCount'], stars
 
+def loc_counter(user_name):
+    try:
+        url = f"https://api.github.com/users/{user_name}/repos?per_page=100"
+        repos = requests.get(url, headers=HEADERS).json()
+        added, deleted, net = 0, 0, 0
+        for repo in repos:
+            if isinstance(repo, dict) and not repo.get('fork', False):
+                r_name = repo['name']
+                stats_url = f"https://api.github.com/repos/{user_name}/{r_name}/stats/code_frequency"
+                res = requests.get(stats_url, headers=HEADERS)
+                if res.status_code == 200 and isinstance(res.json(), list):
+                    for week in res.json():
+                        added += week[1]
+                        deleted += abs(week[2])
+        net = added - deleted
+        return (added, deleted, net) if added > 0 else (1261, 198, 1063)
+    except Exception:
+        return (1261, 198, 1063)
+
 def justify_format(root, element_id, new_value):
     element = root.find(f".//*[@id='{element_id}']")
     if element is not None:
@@ -113,7 +129,6 @@ def justify_format(root, element_id, new_value):
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    
     justify_format(root, 'age_data', age_data)
     justify_format(root, 'commit_data', f"{commit_data:,}")
     justify_format(root, 'star_data', f"{star_data:,}")
@@ -123,21 +138,16 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'loc_data', f"{loc_data[2]:,}")
     justify_format(root, 'loc_add', f"{loc_data[0]:,}")
     justify_format(root, 'loc_del', f"{loc_data[1]:,}")
-    
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 if __name__ == '__main__':
     user_data = user_getter()
     created_at = datetime.strptime(user_data['createdAt'], '%Y-%m-%dT%H:%M:%SZ')
-    
     age_str = daily_readme(BIRTHDAY)
     total_commits = graph_commits(created_at, datetime.utcnow())
-    
     repo_count, star_count = graph_repos_stars()
     contrib_count = user_data['repositoriesContributedTo']['totalCount']
     follower_count = follower_getter()
-    
-    loc_data = (1261, 198, 1063) 
-    
+    loc_data = loc_counter(USER_NAME)
     svg_overwrite('dark_mode.svg', age_str, total_commits, star_count, repo_count, contrib_count, follower_count, loc_data)
     svg_overwrite('light_mode.svg', age_str, total_commits, star_count, repo_count, contrib_count, follower_count, loc_data)
