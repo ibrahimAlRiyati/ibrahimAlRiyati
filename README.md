@@ -58,7 +58,9 @@ I enjoy turning ideas into practical software solutions and interactive experien
 * 🧩 Working with gameplay logic and physics systems
 * 🧠 Turning complex ideas into clean, efficient, and scalable code
 * 🚀 Exploring new technologies and improving my development skills
-
+<h3>🐟 Please feed the fish ✨</h3>
 <p align="center">
-  <img src="250.gif" width="750" alt="Contribution Animation">
+  <a href="https://ibrahimalriyati.github.io/ascii-ocean/" target="_blank">
+    <img src="./520.gif" width="900" alt="ASCII Ocean" />
+  </a>
 </p>
