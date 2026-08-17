@@ -67,11 +67,11 @@
 </text>
 
 <g transform="translate(530, 110)">
-    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> .................. </tspan><tspan id="age_data" class="stat-value">25 years, 0 months, 1 days</tspan></text>
-    <text y="35" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">59</tspan></text>
+    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> .................. </tspan><tspan id="age_data" class="stat-value">25 years, 0 months, 2 days</tspan></text>
+    <text y="35" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">63</tspan></text>
     <text y="70" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............ </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
-    <text y="105" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">16</tspan></text>
-    <text y="140" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"> ............ </tspan><tspan id="contrib_data" class="stat-value">6</tspan></text>
+    <text y="105" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">17</tspan></text>
+    <text y="140" class="stat-label">Contributed to<tspan id="contrib_data_dots" class="stat-dots"> ............ </tspan><tspan id="contrib_data" class="stat-value">7</tspan></text>
     <text y="175" class="stat-label">Followers<tspan id="follower_data_dots" class="stat-dots"> ................. </tspan><tspan id="follower_data" class="stat-value">1</tspan></text>
     <text y="210" class="stat-label">Lines of Code<tspan id="loc_data_dots" class="stat-dots"> ............. </tspan><tspan id="loc_data" class="stat-value">1,250</tspan></text>
     <text y="245" class="stat-label">  Lines Added<tspan id="loc_add_dots" class="stat-dots"> ............. </tspan><tspan id="loc_add" class="stat-value add-color">1,500</tspan></text>
