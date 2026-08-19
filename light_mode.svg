@@ -67,7 +67,7 @@
 </text>
 
 <g transform="translate(530, 110)">
-    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> .................. </tspan><tspan id="age_data" class="stat-value">25 years, 0 months, 3 days</tspan></text>
+    <text y="0" class="stat-label">Age<tspan id="age_data_dots" class="stat-dots"> .................. </tspan><tspan id="age_data" class="stat-value">25 years, 0 months, 4 days</tspan></text>
     <text y="35" class="stat-label">Commits<tspan id="commit_data_dots" class="stat-dots"> .................... </tspan><tspan id="commit_data" class="stat-value">63</tspan></text>
     <text y="70" class="stat-label">Stars Received<tspan id="star_data_dots" class="stat-dots"> ............ </tspan><tspan id="star_data" class="stat-value">0</tspan></text>
     <text y="105" class="stat-label">Repositories<tspan id="repo_data_dots" class="stat-dots"> .............. </tspan><tspan id="repo_data" class="stat-value">17</tspan></text>
